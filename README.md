@@ -24,9 +24,9 @@ Note that in some methods $$\widehat{s} = s + 1 > s$$ for which we may take $$b_
  
 * Sixth-order methods
   
-    ** \texttt{DIRK(6,6)[1]A-[(7,5)A]}\footnote{While having the same number of stages as the method presented in \cite{cooper1979semiexplicit}, the scheme developed herein is A-stable, double-precision accurate, and has an error estimator, unlike the former where, upon examination, the magnitude of the stability function exceeds 1 for large values of $z$ (i.e., it is not A-stable).} 
+    * $\texttt{DIRK(6,6)[1]A-[(7,5)A]}$
     \2 \texttt{DIRK(8,6)[1]SAL-[(8,5)A]} 
-    \2\texttt{ESDIRK(8,6)[2]SA-[(8,4)]}\footnote{This method has one fewer stage than the method derived in \cite{kennedy2019diagonally}, but the latter is additionally L-stable.} 
+    \2\texttt{ESDIRK(8,6)[2]SA-[(8,4)]}
     \2 \texttt{SDIRK(9,6)[1]SAL-[(9,5)A]}
 
     \1 Seventh-order methods
