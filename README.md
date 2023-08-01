@@ -8,8 +8,7 @@ It contains the coefficients (A,b) for a 6th, 7th, and 8th order DIRK-type metho
  $$\text{TYPE}(s,p)[r]X-[(\widehat{s},\widehat{p})Y]$$
 where 
 
-\begin{itemize}
-    \item TYPE: is the structure of the DIRK-type method, that is DIRK, EDIRK, SDIRK, or ESDIRK.
+- TYPE: is the structure of the DIRK-type method, that is DIRK, EDIRK, SDIRK, or ESDIRK.
     \item $s$: number of stages for the advancing method.
     \item $p$: order of convergence for the advancing method.
     \item $r$: stage order of the advancing method.
