@@ -25,20 +25,20 @@ Note that in some methods $$\widehat{s} = s + 1 > s$$ for which we may take $$b_
 * Sixth-order methods
   
     * $\texttt{DIRK(6,6)[1]A-[(7,5)A]}$
-    \2 \texttt{DIRK(8,6)[1]SAL-[(8,5)A]} 
-    \2\texttt{ESDIRK(8,6)[2]SA-[(8,4)]}
-    \2 \texttt{SDIRK(9,6)[1]SAL-[(9,5)A]}
+    * $\texttt{DIRK(8,6)[1]SAL-[(8,5)A]}$ 
+    * $\texttt{ESDIRK(8,6)[2]SA-[(8,4)]}$
+    * $\texttt{SDIRK(9,6)[1]SAL-[(9,5)A]}$
 
-    \1 Seventh-order methods
-    \2 \texttt{DIRK(9,7)[1]A-[(9,5)A]} 
-    \2 \texttt{DIRK(10,7)[1]SAL-[(10,5)A]} 
-    \2\texttt{ESDIRK(10,7)[2]SA-[(10,5)]} 
-    \2 \texttt{SDIRK(11,7)[1]SAL-[(11,5)A]}
+* Seventh-order methods
+    * $\texttt{DIRK(9,7)[1]A-[(9,5)A]}$ 
+    * $\texttt{DIRK(10,7)[1]SAL-[(10,5)A]}$ 
+    * $\texttt{ESDIRK(10,7)[2]SA-[(10,5)]}$ 
+    * $\texttt{SDIRK(11,7)[1]SAL-[(11,5)A]}$
 
-    \1 Eighth-order methods
-    \2 \texttt{DIRK(13,8)[1]A-[(14,6)A]} 
-    \2 \texttt{DIRK(15,8)[1]SAL-[(16,6)A]} 
-    \2\texttt{ESDIRK(16,8)[2]SAL-[(16,5)]} 
+* Eighth-order methods
+    * $\texttt{DIRK(13,8)[1]A-[(14,6)A]}$ 
+    * $\texttt{DIRK(15,8)[1]SAL-[(16,6)A]}$ 
+    * $\texttt{ESDIRK(16,8)[2]SAL-[(16,5)]}$ 
  
  
 
