@@ -7,6 +7,7 @@ https://arxiv.org/abs/2211.14574
 It contains the coefficients (A,b) for a 6th, 7th, and 8th order DIRK-type methods and their embedded error estimators. The notation used is 
  $$\text{TYPE}(s,p)[r]X-[(\widehat{s},\widehat{p})Y]$$
 where 
+
 \begin{itemize}
     \item TYPE: is the structure of the DIRK-type method, that is DIRK, EDIRK, SDIRK, or ESDIRK.
     \item $s$: number of stages for the advancing method.
@@ -17,6 +18,7 @@ where
     \item $\widehat{p}$: order of convergence for the embedded error estimator.
     \item $Y$: stability property of the embedded error estimator, if any.
 \end{itemize}
+
  Note that in some methods $\widehat{s} = s + 1 > s$ for which we may take $b_{s+1} = 0$ in the embedded pair. Using the above notation, the new schemes in this work are:
 
 \begin{outline}
