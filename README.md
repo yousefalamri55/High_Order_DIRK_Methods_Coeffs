@@ -9,7 +9,9 @@ It contains the coefficients (A,b) for a 6th, 7th, and 8th order DIRK-type metho
 where 
 
 * TYPE: is the structure of the DIRK-type method, that is DIRK, EDIRK, SDIRK, or ESDIRK.
+  
 * $s$: number of stages for the advancing method.
+
 * $p$: order of convergence for the advancing method.
 * $r$: stage order of the advancing method.
 * $X$: stability property of the advancing method; i.e., $A$ for A-stable, $L$ for L-stable, $SA$ for stiffly accurate, or $SAL$ if both stiffly accurate and L-stable.
