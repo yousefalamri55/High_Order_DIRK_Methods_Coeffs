@@ -8,17 +8,16 @@ It contains the coefficients (A,b) for a 6th, 7th, and 8th order DIRK-type metho
  $$\text{TYPE}(s,p)[r]X-[(\widehat{s},\widehat{p})Y]$$
 where 
 
-- TYPE: is the structure of the DIRK-type method, that is DIRK, EDIRK, SDIRK, or ESDIRK.
-    \item $s$: number of stages for the advancing method.
-    \item $p$: order of convergence for the advancing method.
-    \item $r$: stage order of the advancing method.
-    \item $X$: stability property of the advancing method; i.e., $A$ for A-stable, $L$ for L-stable, $SA$ for stiffly accurate, or $SAL$ if both stiffly accurate and L-stable.
-    \item $\widehat{s}$: number of stages for the embedded error estimator.
-    \item $\widehat{p}$: order of convergence for the embedded error estimator.
-    \item $Y$: stability property of the embedded error estimator, if any.
-\end{itemize}
-
- Note that in some methods $\widehat{s} = s + 1 > s$ for which we may take $b_{s+1} = 0$ in the embedded pair. Using the above notation, the new schemes in this work are:
+* TYPE: is the structure of the DIRK-type method, that is DIRK, EDIRK, SDIRK, or ESDIRK.
+* $s$: number of stages for the advancing method.
+* $p$: order of convergence for the advancing method.
+* $r$: stage order of the advancing method.
+* $X$: stability property of the advancing method; i.e., $A$ for A-stable, $L$ for L-stable, $SA$ for stiffly accurate, or $SAL$ if both stiffly accurate and L-stable.
+* $\widehat{s}$: number of stages for the embedded error estimator.
+* $\widehat{p}$: order of convergence for the embedded error estimator.
+* $Y$: stability property of the embedded error estimator, if any.
+ 
+Note that in some methods $$\widehat{s} = s + 1 > s$$ for which we may take $$b_{s+1} = 0$$ in the embedded pair. Using the above notation, the new schemes in this work are:
 
 \begin{outline}
  \1 Sixth-order methods
