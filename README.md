@@ -21,9 +21,10 @@ where
  
 Note that in some methods $$\widehat{s} = s + 1 > s$$ for which we may take $$b_{s+1} = 0$$ in the embedded pair. Using the above notation, the new schemes in this work are:
 
-\begin{outline}
- \1 Sixth-order methods
-    \2 \texttt{DIRK(6,6)[1]A-[(7,5)A]}\footnote{While having the same number of stages as the method presented in \cite{cooper1979semiexplicit}, the scheme developed herein is A-stable, double-precision accurate, and has an error estimator, unlike the former where, upon examination, the magnitude of the stability function exceeds 1 for large values of $z$ (i.e., it is not A-stable).} 
+ 
+* Sixth-order methods
+  
+    ** \texttt{DIRK(6,6)[1]A-[(7,5)A]}\footnote{While having the same number of stages as the method presented in \cite{cooper1979semiexplicit}, the scheme developed herein is A-stable, double-precision accurate, and has an error estimator, unlike the former where, upon examination, the magnitude of the stability function exceeds 1 for large values of $z$ (i.e., it is not A-stable).} 
     \2 \texttt{DIRK(8,6)[1]SAL-[(8,5)A]} 
     \2\texttt{ESDIRK(8,6)[2]SA-[(8,4)]}\footnote{This method has one fewer stage than the method derived in \cite{kennedy2019diagonally}, but the latter is additionally L-stable.} 
     \2 \texttt{SDIRK(9,6)[1]SAL-[(9,5)A]}
@@ -39,7 +40,7 @@ Note that in some methods $$\widehat{s} = s + 1 > s$$ for which we may take $$b_
     \2 \texttt{DIRK(15,8)[1]SAL-[(16,6)A]} 
     \2\texttt{ESDIRK(16,8)[2]SAL-[(16,5)]} 
  
-\end{outline}
+ 
 
 
 They are organaized for each order in a folder. Each set of Coeffs is named as Xsp, where X is either the matrix A or vector b, s is the number of stages, and p is the order of the method. Each error estimator is added as a subfolder. If the same function evaluation is used (i.e., same matrix A) for the error estimator, the pertaining folder only includes \hat{b}, Otherwise it includes the modified A with an additional stage. We name the error estimators as Xsp_Ezq, where Xsp is the original method, and Ezq denote the embedding's number of stages (z) and order (q).
