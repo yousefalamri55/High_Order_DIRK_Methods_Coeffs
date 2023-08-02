@@ -4,7 +4,7 @@ This repository accompanies the manuscript "VERY HIGH-ORDER A-STABLE STIFFLY ACC
 IMPLICIT RUNGE-KUTTA METHODS WITH ERROR ESTIMATORS" available here
 https://arxiv.org/abs/2211.14574
 
-It contains the coefficients (A,b) for a 6th, 7th, and 8th order DIRK-type methods and their embedded error estimators. The notation used is 
+It contains the coefficients for a 6th, 7th, and 8th order DIRK-type methods and their embedded error estimators. The notation used is 
  $$\text{TYPE}(s,p)[r]X-[(\widehat{s},\widehat{p})Y]$$
 where 
 
