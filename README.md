@@ -19,7 +19,7 @@ where
 * $\widehat{p}$: order of convergence for the embedded error estimator.
 * $Y$: stability property of the embedded error estimator, if any.
  
-Note that in some methods $$\widehat{s} = s + 1 > s$$ for which we may take $$b_{s+1} = 0$$ in the embedded pair. Using the above notation, the new schemes in this work are:
+Note that in some methods $$\widehat{s} = s + 1 > s$$ for which we may take $$b_{s+1} = 0$$ in the embedded pair. Using the above notation, the new schemes are:
 
  
 * Sixth-order methods
